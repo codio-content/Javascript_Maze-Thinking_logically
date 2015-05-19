@@ -1,0 +1,54 @@
+{
+ "sections": [
+  {
+   "id": "9e149a02-e459-9e9c-dda-bb4f19c1a76",
+   "title": "Section 1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "sections/js/one.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain}}:9500/welcome",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Section-1-9e14.md"
+  },
+  {
+   "id": "c9caf3ac-f36b-1d03-8c42-5857e5f8b8dd",
+   "title": "Section 2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#preview: https://{{domain}}:9500/two",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Section-2-c9ca.md"
+  }
+ ],
+ "theme": "charcoal",
+ "scripts": []
+}

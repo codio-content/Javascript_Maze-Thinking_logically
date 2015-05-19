@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Two</title>
+      
+    <% include include/blockly.ejs %>
+    
+    <style>
+      html, body { margin: 0; padding: 0; height: 100%; width: 100%; }
+      #blockly { height: 100%; width: 100%; }
+    </style>
+    
+    <script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var toolbox = document.getElementById('toolbox');        
+        Blockly.inject('blockly', { toolbox: toolbox });
+
+        var workspace = document.getElementById('workspace');
+        Blockly.Xml.domToWorkspace(Blockly.mainWorkspace, workspace);
+      });
+    
+    </script>
+    
+  </head>
+  <body>
+    <% include ../content/blockly/two/toolbox.xml %>
+    <% include ../content/blockly/two/workspace.xml %>
+    <div id="blockly"></div> 
+  </body>
+</html>
