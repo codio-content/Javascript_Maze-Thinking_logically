@@ -1,2 +1,2 @@
 
-nodemon -e js,jade app.js &> ../app.log
+# nodemon -e js,ejs app.js &> ../app.log
