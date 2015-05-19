@@ -9,12 +9,12 @@
      "action": "close"
     },
     {
-     "path": "sections/js/one.js",
+     "path": "content/js/one.js",
      "panel": 0,
      "action": "open"
     },
     {
-     "path": "#preview: https://{{domain}}:9500/welcome",
+     "path": "#preview: https://{{domain}}:9500/one",
      "panel": 1,
      "action": "open"
     }
