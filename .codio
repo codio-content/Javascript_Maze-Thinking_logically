@@ -3,7 +3,7 @@
 
 // Run button configuration
   "commands": {
-        "Nodemon": "nodemon -e js,ejs app.js &> ../app.log",
+    "Nodemon": "nodemon -e js,ejs app.js",
     "Kill Nodemon": "pkill node"
   },
 

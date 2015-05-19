@@ -1,76 +1,128 @@
 {
  "sections": [
   {
-   "id": "9e149a02-e459-9e9c-dda-bb4f19c1a76",
-   "title": "Section 1",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "content/js/one.js",
-     "panel": 0,
-     "action": "open"
-    },
-    {
-     "path": "#preview: https://{{domain}}:9500/one",
-     "panel": 1,
-     "action": "open"
-    }
-   ],
-   "layout": "3-cell",
+   "id": "e8011f3c-139c-1da0-8025-360ca46969fc",
+   "title": "Commands & Variables",
+   "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Section-1-9e14.md"
+   "content-file": ".guides/content/Commands---Variables-e801.md"
   },
   {
-   "id": "c9caf3ac-f36b-1d03-8c42-5857e5f8b8dd",
-   "title": "Section 2",
+   "id": "9f837972-86de-c8cd-7b30-45dedb48fc28",
+   "title": "Create a Random Maze",
    "files": [
     {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#preview: https://{{domain}}:9500/two-blockly",
+     "path": "#preview: https://{{domain9500}}/commands-1",
      "panel": 0,
      "action": "open"
     },
     {
-     "path": "#preview: https://{{domain}}:9500/two",
-     "panel": 1,
+     "path": "#preview: https://{{domain9500}}/commands-1-b",
+     "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "3-cell",
+   "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Section-2-c9ca.md"
+   "content-file": ".guides/content/Create-a-Random-Maze-9f83.md"
   },
   {
-   "id": "2ce25b7e-d07d-dce1-a809-e6a293d64967",
-   "title": "Section 3",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#preview: https://{{domain}}:9500/three-blockly",
-     "panel": 0,
-     "action": "open"
-    },
-    {
-     "path": "#preview: https://{{domain}}:9500/three",
-     "panel": 1,
-     "action": "open"
-    }
-   ],
-   "layout": "3-cell",
+   "id": "d59df680-25c4-1609-f842-be6b58464677",
+   "title": "An Empty Maze",
+   "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Section-3-2ce2.md"
+   "content-file": ".guides/content/An-Empty-Maze-d59d.md"
+  },
+  {
+   "id": "c89cdc56-6824-d416-421a-bd85df5568a9",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-c89c.md"
+  },
+  {
+   "id": "9d064457-5295-4cd3-cb62-453eec984c5c",
+   "title": "Javascript",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Javascript-9d06.md"
+  },
+  {
+   "id": "47154c9e-3372-5c10-fd07-bc557022ae6c",
+   "title": "Javascript Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Javascript-Challenge-4715.md"
+  },
+  {
+   "id": "98dd596c-1e76-734e-e7e5-621e9cb08e9e",
+   "title": "More Instructions",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/More-Instructions-98dd.md"
+  },
+  {
+   "id": "18bbcb21-54fb-5dbc-c629-7567d2c6d560",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-18bb.md"
+  },
+  {
+   "id": "4fa717b6-a1e-936a-5654-38a6d3143a2d",
+   "title": "The Grid",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-Grid-4fa7.md"
+  },
+  {
+   "id": "b67b4f96-68a8-fe15-7d0-8147f8a8ebc0",
+   "title": "Precise Placement",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Precise-Placement-b67b.md"
+  },
+  {
+   "id": "bf43bf22-a13a-5781-bc9-1e71fdccde07",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-bf43.md"
+  },
+  {
+   "id": "83f05174-dc24-85e0-2d0-3a35818c22b",
+   "title": "More Javascript",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/More-Javascript-83f0.md"
+  },
+  {
+   "id": "de3bbb68-33d3-2a39-c8c0-ce1db5b06a54",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-de3b.md"
+  },
+  {
+   "id": "5f131f9f-2a7a-a51f-7901-71dbef64544a",
+   "title": "Final Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Final-Challenge-5f13.md"
   }
  ],
  "theme": "charcoal",
