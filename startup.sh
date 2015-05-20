@@ -1,2 +1,2 @@
 
-node app
+nodemon -e js,ejs app.js

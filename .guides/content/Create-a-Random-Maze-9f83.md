@@ -2,11 +2,17 @@ On the left hand side is a game with nothing in it whatsoever. You are soon goin
 
 To start off with, we are going to use command blocks to represent the instructions. You can drag commands from the left hand toolbox into the white area on its right. 
 
-Start off by dragging in the command 'Create Random Maze'. 
+## Your first tiny program
 
-[IMAGE OF BLOCKLY COMMAND]
+Start off by dragging in the command 
 
-When you are ready, you can run the game by pressing the Reload button in the game
+- Create Random Maze
+
+It should look like this
+
+![](.guides/img/createRandom.png)
+
+Once you have done this, you can run the game by pressing the Reload button in the game
 
 [IMAGE OF RELOAD BUTTON]
 

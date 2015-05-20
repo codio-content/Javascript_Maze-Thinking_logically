@@ -1,6 +1,0 @@
-<xml id="toolbox" style="display: none">
-  <block type="create_random"></block>
-  <block type="create_empty"></block> 
-  <block type="add_monster"></block> 
-  <block type="math_number"></block>  
-</xml>

@@ -10,12 +10,12 @@
       document.addEventListener('DOMContentLoaded', function() {
 
         // Load the user blockly script
-        $.getScript( '/content/blockly/commands-1-b/blockly-gen.js' )
+        $.getScript( '/content/blockly/commands-3-b/blockly-gen.js' )
           .done(function( script, textStatus ) {
             startFromContainer('game');
           })
           .fail(function( jqxhr, settings, exception ) {
-            $( "div.log" ).text( "Triggered ajaxError handler." );
+            console.log( 'Error loading user game' );
         });        
         
       })

@@ -1,0 +1,18 @@
+<!-- Blockly Toolbox Elements -->
+
+<xml id="toolbox" style="display: none">
+  <block type="create_empty"></block> 
+  <block type="add_monster"></block> 
+  <block type="create_player"></block>   
+  <block type="math_number"></block>   
+</xml>
+
+
+<!-- Prebuilt blocks in the Blockly workspace -->
+
+<xml id="workspace" style="display: none">
+
+</xml>
+
+<!-- Container for Blockly -->
+<div id="blockly"></div> 

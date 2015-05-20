@@ -13,17 +13,21 @@
    "title": "Create a Random Maze",
    "files": [
     {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
      "path": "#preview: https://{{domain9500}}/commands-1",
-     "panel": 0,
+     "panel": 1,
      "action": "open"
     },
     {
-     "path": "#preview: https://{{domain9500}}/commands-1-b",
+     "path": "public/content/blockly/commands-1-b/commands-1-b.blockly",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "3-cell-tree",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Create-a-Random-Maze-9f83.md"
@@ -31,7 +35,23 @@
   {
    "id": "d59df680-25c4-1609-f842-be6b58464677",
    "title": "An Empty Maze",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/commands-2",
+     "panel": 1,
+     "action": "open"
+    },
+    {
+     "path": "public/content/blockly/commands-2-b/commands-2-b.blockly",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/An-Empty-Maze-d59d.md"
@@ -39,7 +59,23 @@
   {
    "id": "c89cdc56-6824-d416-421a-bd85df5568a9",
    "title": "Challenge",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/content/blockly/commands-3-b/commands-3-b.blockly",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/commands-3",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-c89c.md"
@@ -47,7 +83,23 @@
   {
    "id": "9d064457-5295-4cd3-cb62-453eec984c5c",
    "title": "Javascript",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/content/js/js-1.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/js-1",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Javascript-9d06.md"
@@ -55,7 +107,23 @@
   {
    "id": "47154c9e-3372-5c10-fd07-bc557022ae6c",
    "title": "Javascript Challenge",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/content/js/js-2.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/js-2",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Javascript-Challenge-4715.md"

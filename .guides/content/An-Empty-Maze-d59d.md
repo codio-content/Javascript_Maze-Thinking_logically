@@ -7,7 +7,12 @@ Next, we are going to add some monsters.
 
 [IMAGE MONSTER]
 
-- Drag in the 'Create Monster' command and connect it below the 'Empty Maze' command so it clicks into place.
+- Drag in the 'Add Random Monster' command and connect it below the 'Create Empty Maze' command so it clicks into place.
+- Drag in the 'Add Player' command and connect it below the 'Empty Maze' command so it clicks into place.
 - Reload the game
-- Try adding several monsters by adding more commands
+- Try adding several monsters by adding more commands.
+- You can also add a game player with the Add Player command.
+- You can also add several monsters with one Add Random Monster command by dragging in the number block as shown below.
+
+![](.guides/img/multi-monsters.png)
 
