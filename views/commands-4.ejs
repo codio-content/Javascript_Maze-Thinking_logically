@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>One</title>
+
+    <% include include/game.ejs %>      
+    
+    <script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+
+        // Load the user blockly script
+        $.getScript( '/content/blockly/commands-4-b/blockly-gen.js' )
+          .done(function( script, textStatus ) {
+            startFromContainer('game');
+          })
+          .fail(function( jqxhr, settings, exception ) {
+            console.log( 'Error loading user game' );
+        });        
+        
+      })
+
+            
+    </script>
+    
+  </head>
+  <body>
+    <div id="game"></div>
+  </body>
+</html>

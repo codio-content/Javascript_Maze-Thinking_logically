@@ -61,6 +61,37 @@ Blockly.JavaScript['add_monster'] = function(block) {
   return code;
 };  
 
+// 
+// Add Monster @ (X,Y)
+// 
+Blockly.Blocks['add_monster_parms'] = {
+  init: function() {
+    this.setColour(20);
+    this.appendDummyInput()
+        .appendField("Add Monster")
+        .appendField("X")
+        .appendField(new Blockly.FieldTextInput(""), "xCoord")
+        .appendField("Y")
+        .appendField(new Blockly.FieldTextInput(""), "yCoord");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setTooltip('');
+  }
+};
+Blockly.JavaScript['add_monster_parms'] = function(block) {
+  var text_xcoord = block.getFieldValue('xCoord');
+  var text_ycoord = block.getFieldValue('yCoord');
+  if (text_xcoord.trim() == '' || text_xcoord.trim == '0' || text_ycoord.trim == '' || text_ycoord.trim == '0') {
+    var code = 'addRandomMonsters(1)\n';    
+  }
+  else {
+    var code = 'addMonster(' + text_xcoord + ', ' + text_ycoord + ')\n';    
+  }
+  return code;
+};
+
+
 //
 // Add Player
 //
@@ -96,7 +127,72 @@ Blockly.Blocks['add_energy'] = {
 Blockly.JavaScript['add_energy'] = function(block) {
   var value = Blockly.JavaScript.valueToCode(block, 'NAME', Blockly.JavaScript.ORDER_ADDITION) || '0'  
   console.log('Value:' + value) 
-  var code = 'addRandomEnergy(' + value + ')\n';
+  var code = 'addRandomEnergies(' + value + ')\n';
   return code;
 };  
-   
+
+// 
+// Add Energy @ (X,Y)
+// 
+Blockly.Blocks['add_energy_parms'] = {
+  init: function() {
+    this.setColour(20);
+    this.appendDummyInput()
+        .appendField("Add Energy")
+        .appendField("X")
+        .appendField(new Blockly.FieldTextInput(""), "xCoord")
+        .appendField("Y")
+        .appendField(new Blockly.FieldTextInput(""), "yCoord");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setTooltip('');
+  }
+};
+Blockly.JavaScript['add_energy_parms'] = function(block) {
+  var text_xcoord = block.getFieldValue('xCoord');
+  var text_ycoord = block.getFieldValue('yCoord');
+  if (text_xcoord.trim() == '' || text_xcoord.trim == '0' || text_ycoord.trim == '' || text_ycoord.trim == '0') {
+    var code = 'addRandomEnergies(1)\n';    
+  }
+  else {
+    var code = 'addEnergy(' + text_xcoord + ', ' + text_ycoord + ')\n';    
+  }
+  return code;
+};
+
+// 
+// Add Wall @ (X,Y)
+// 
+Blockly.Blocks['add_wall_parms'] = {
+  init: function() {
+    this.setHelpUrl('http://www.example.com/');
+    this.setColour(20);
+    this.appendDummyInput()
+        .appendField("Add Wall")
+        .appendField("X")
+        .appendField(new Blockly.FieldTextInput(""), "xCoord")
+        .appendField("Y")
+        .appendField(new Blockly.FieldTextInput(""), "yCoord");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setTooltip('');
+  }
+};
+Blockly.JavaScript['add_wall_parms'] = function(block) {
+  var text_xcoord = block.getFieldValue('xCoord');
+  var text_ycoord = block.getFieldValue('yCoord');
+  if (text_xcoord.trim() == '' || text_xcoord.trim == '0' || text_ycoord.trim == '' || text_ycoord.trim == '0') {
+    var code = 'addRandomWalls(1)\n';    
+  }
+  else {
+    var code = 'addWall(' + text_xcoord + ', ' + text_ycoord + ')\n';    
+  }
+  return code;
+};
+
+
+
+
+

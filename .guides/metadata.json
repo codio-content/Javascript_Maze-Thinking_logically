@@ -131,7 +131,23 @@
   {
    "id": "98dd596c-1e76-734e-e7e5-621e9cb08e9e",
    "title": "More Instructions",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/content/blockly/commands-4-b/commands-4-b.blockly",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/commands-4",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/More-Instructions-98dd.md"
@@ -139,7 +155,23 @@
   {
    "id": "18bbcb21-54fb-5dbc-c629-7567d2c6d560",
    "title": "Challenge",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/content/blockly/commands-5-b/commands-5-b.blockly",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/commands-5",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-18bb.md"

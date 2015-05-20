@@ -30,4 +30,19 @@ router.get('/js-2', function(req, res) {
   res.render('js-2');
 }); 
 
+// Add objects with coords
+router.get('/commands-4', function(req, res) {
+  res.render('commands-4');
+}); 
+
+// Add objects with coords challenge
+router.get('/commands-5', function(req, res) {
+  res.render('commands-5');
+}); 
+
+
+
 module.exports = router;
+
+
+

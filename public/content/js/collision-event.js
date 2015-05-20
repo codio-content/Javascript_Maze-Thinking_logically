@@ -1,4 +1,0 @@
-
-function collisionEvent() {
-  playSound()
-}

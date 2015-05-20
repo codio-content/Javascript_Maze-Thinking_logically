@@ -1,0 +1,3 @@
+createEmptyMaze()
+
+addRandomWalls(1)
