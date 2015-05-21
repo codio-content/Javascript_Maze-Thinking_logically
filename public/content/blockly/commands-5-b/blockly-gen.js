@@ -1,3 +1,0 @@
-createEmptyMaze()
-
-addRandomWalls(1)

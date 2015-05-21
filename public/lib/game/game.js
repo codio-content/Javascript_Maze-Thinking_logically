@@ -732,7 +732,7 @@ var timeout = 40;
 var timestamp = 0;
 
 // tile size (width and height) in pixels.
-var ts = null;
+var ts = 10;
 
 // maze wall and floor tiles.
 var tiles = null;
@@ -757,13 +757,13 @@ var gridInfo = false;
  * The maze width in tiles. Either set it before calling a createMaze... 
  * function or supply a width in the the createMaze... function.
  */
-var mazeWidth = 0;
+var mazeWidth = 7;
 
 /**
  * The maze height in tiles. Either set it before calling a createMaze... 
  * function or supply a height in the the createMaze... function.
  */
-var mazeHeight = 0;
+var mazeHeight = 5;
 
 /**
  * The number of steps taken by the player in the maze.
@@ -782,7 +782,7 @@ var score = energy * 5 / steps;
 
 function useCountryArt() {
   setTilesheet({
-    src: 'img/country.png',
+    src: '/lib/game/img/country.png',
     font: 'consolas',
     fontColor: '#000000',
     ts: 50,
@@ -815,7 +815,7 @@ function useCountryArt() {
 
 function useDerekArt() {
   setTilesheet({
-    src: 'img/derek64.png',
+    src: '/lib/game/img/derek64.png',
     font: 'Georgia',
     fontColor: '#FFFFFF',
     ts: 64,

@@ -9,7 +9,7 @@ Here are the Javascript function names available to you
 |||challenge
 It's the same challenge as before, so
 
-- add 4 wall sections at random locations (leaving the holes empty)
+- add 4 wall sections at random locations (don't supply coordinates)
 - add 3 monsters at (4,4), (6,8) and (9, 5)
 - add 2 energy stores at (5,3) and (7, 4)
 - add the player, leaving the holes blank

@@ -1,2 +1,0 @@
-createEmptyMaze()
-addRandomMonsters(12)

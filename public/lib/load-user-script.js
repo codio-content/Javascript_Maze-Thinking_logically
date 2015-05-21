@@ -1,4 +1,4 @@
-function loadUserScript(fileName) {
+function loadUserScript(fileName) { 
   $.getScript(fileName)
     .done(function(script, textStatus) {
       if (userScriptLoaded) {

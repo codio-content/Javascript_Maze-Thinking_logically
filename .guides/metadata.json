@@ -3,7 +3,23 @@
   {
    "id": "e8011f3c-139c-1da0-8025-360ca46969fc",
    "title": "Commands & Variables",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/content/js/js-5.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/js-5",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Commands---Variables-e801.md"
@@ -179,7 +195,23 @@
   {
    "id": "4fa717b6-a1e-936a-5654-38a6d3143a2d",
    "title": "The Grid",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/content/blockly/commands-6-b/commands-6-b.blockly",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/commands-6",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/The-Grid-4fa7.md"
@@ -195,7 +227,23 @@
   {
    "id": "bf43bf22-a13a-5781-bc9-1e71fdccde07",
    "title": "Challenge",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/content/blockly/commands-7-b/commands-7-b.blockly",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/commands-7",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-bf43.md"
@@ -203,7 +251,23 @@
   {
    "id": "83f05174-dc24-85e0-2d0-3a35818c22b",
    "title": "More Javascript",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/content/js/js-3.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/js-3",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/More-Javascript-83f0.md"
@@ -211,7 +275,23 @@
   {
    "id": "de3bbb68-33d3-2a39-c8c0-ce1db5b06a54",
    "title": "Challenge",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/content/js/js-4.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/js-4",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-de3b.md"
@@ -219,7 +299,23 @@
   {
    "id": "5f131f9f-2a7a-a51f-7901-71dbef64544a",
    "title": "Final Challenge",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/content/js/js-5.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/js-5",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Final-Challenge-5f13.md"

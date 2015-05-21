@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>One</title>
+    
+    <% include include/game.ejs %>    
+ 
+    <script>      
+
+    document.addEventListener('DOMContentLoaded', function() {      
+      // by default an random maze is created
+
+      // turn on gridInfo to display grid coordinates
+      gridInfo = true;
+
+      // set directly
+      mazeWidth = 7;
+      mazeHeight = 7;
+
+      // width and height are optional
+      // contents are completely random
+      // createRandomMaze();
+
+      // width and height are optional
+      // will use default or mazeWidth mazeHeight if set
+      createEmptyMaze(14, 8);
+
+      // add player to specific location
+      addPlayer(5, 5);
+
+      // add to specific location
+      addWall(2, 2);
+      addMonster(2, 3);
+      addEnergy(2, 4);
+
+      // x and y are optional, adds randomly
+      addWall();
+      addMonster();
+      addEnergy();
+
+      // paramaters are optional
+      // add specific number of random objects
+      addRandomWalls(2);
+      addRandomMonsters(2);
+      addRandomEnergies(2);
+
+      // x and y are optional
+      // defaults to top right
+      addGoal();
+      // add player again
+      // an existing player will be removed
+      // defaults to bottom left
+      addPlayer();
+
+      showMessage('your journey begins adventurer');
+      playSound('goal');
+
+      console.log('inner wall count: ' + getWallCount());
+      console.log('monster count: ' + getMonsterCount());
+      console.log('energy count: ' + getEnergyCount());
+      console.log('goal count: ' + getGoalCount());
+
+      playerUpdate(function() {
+        // reload the page
+        if(keyPressed('R')) {
+          document.location.reload(true);
+        }
+
+        if      (keyPressed('LEFT'))  this.moveleft();
+        else if (keyPressed('RIGHT')) this.moveRight();
+        else if (keyPressed('UP'))    this.moveUp(); 
+        else if (keyPressed('DOWN'))  this.moveDown();
+
+      });
+
+      playerHitWall(function(object) {
+        console.log('custom playerHitWall');
+        playSound('wall');
+        showMessage('you bash into a wall');
+      });
+
+      playerHitObject(function(object) {
+        console.log('playerHitObject hook');
+      });
+
+      playerHitMonster(function(object) {
+        console.log('custom playerHitMonster');
+        playSound('monster');
+        showMessage('you hit a monster');
+
+        // set player energy
+        energy += 1;
+
+        // set player score
+        score = energy * 5 / steps;
+
+        // remove the monster
+        removeObject(object);
+      });
+
+      playerHitEnergy(function(object) {
+        console.log('custom playerHitEnergy');
+        playSound('energy');
+        showMessage('you collect some needed energy');
+        energy += 3;
+        score = energy * 5 / steps;
+        removeObject(object);
+      });
+
+      playerHitGoal(function(object) {
+        console.log('custom playerHitGoal');
+        playSound('goal');
+        showMessage('you have found the exit');
+      });
+
+      playerStepTaken(function() {
+        console.log('custom playerStepTaken');
+
+        // set the player steps
+        steps = steps + 1;
+
+        score = energy * 5 / steps;
+      });
+
+      // no start function needed
+      // automatically adds canvas to #game or body
+    });
+    </script>
+    
+  </head>
+<body>
+  <button style="z-index: 2;" onclick="document.location.reload(true);">refresh</button>
+  <div class="center" style="z-index: -1;">
+    <div id="game">
+    </div>
+  </div>
+</body>
+</html>

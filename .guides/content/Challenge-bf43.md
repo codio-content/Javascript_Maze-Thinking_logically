@@ -1,12 +1,11 @@
 |||challenge
 Create a game with the following properties
 
-- add 4 wall sections at random locations (leaving the holes empty)
+- create an empty maze
+- add 4 wall sections at random locations (don't set X and Y coordinates)
 - add 3 monsters at (4,4), (6,8) and (9, 5)
 - add 2 energy stores at (5,3) and (7, 4)
-- add the player, leaving the holes blank
-
-Don't forget to add the 'Create Empty Maze' as the first instruction.
+- add the player
 
 Press the button below once you think you've done it.
 

@@ -12,7 +12,7 @@
         // Load the user blockly script
         $.getScript( '/content/blockly/commands-2-b/blockly-gen.js' )
           .done(function( script, textStatus ) {
-            startFromContainer('game');
+            
           })
           .fail(function( jqxhr, settings, exception ) {
             console.log( 'Error loading user game' );

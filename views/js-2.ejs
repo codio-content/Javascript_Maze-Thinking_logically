@@ -7,13 +7,7 @@
  
     <script>      
         // Load the user blockly script
-        $.getScript( '/content/js/js-2.js' )
-          .done(function( script, textStatus ) {
-            startFromContainer('game');
-          })
-          .fail(function( jqxhr, settings, exception ) {
-            console.log( 'Error loading user game' );
-        }); 
+        loadUserScript('/content/js/js-2.js')
     </script>
     
   </head>
