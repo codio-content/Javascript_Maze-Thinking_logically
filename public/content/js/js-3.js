@@ -4,3 +4,5 @@
 createEmptyMaze()
 addWall()
 addMonster(1,2)
+addPlayer()
+addGoal()

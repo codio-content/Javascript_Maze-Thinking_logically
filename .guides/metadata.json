@@ -7,16 +7,6 @@
     {
      "path": "#tabs",
      "action": "close"
-    },
-    {
-     "path": "public/content/js/js-5.js",
-     "panel": 0,
-     "action": "open"
-    },
-    {
-     "path": "#preview: https://{{domain9500}}/js-5",
-     "panel": 1,
-     "action": "open"
     }
    ],
    "layout": "",
