@@ -1,0 +1,11 @@
+createEmptyMaze()
+addPlayer()
+addGoal()
+addMonster(2, 2)
+addMonster(3, 3)
+addRandomEnergies(1)
+addRandomEnergies(1)
+addRandomWalls(1)
+addRandomWalls(1)
+addRandomWalls(1)
+ 

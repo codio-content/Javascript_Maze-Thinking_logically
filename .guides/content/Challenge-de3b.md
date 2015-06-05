@@ -18,6 +18,6 @@ Don't forget to add the 'Create Empty Maze' as the first instruction.
 
 Press the button below once you think you've done it.
 
-{Check it!! | custom}(test-funcs-js)
+{Check it!! | custom}(js-4)
 
 |||

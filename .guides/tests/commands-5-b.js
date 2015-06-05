@@ -2,11 +2,12 @@
 $.getScript(window.location.origin + '/public/content/blockly/' + window.testEnv.cmd + '/blockly-gen.js')
 .done(function (script, status) {      
   console.log(_commands);
-  
-  if(indexOfCommand('createEmptyMaze') > -1 &&
-     indexOfCommand('addRandomMonsters') > -1 &&
-     command('addRandomMonsters')[1] === 3 &&
-     indexOfCommand('addPlayer') > -1) {
+    
+  if(getMonsterCount() == 2 && 
+     getEnergyCount() == 2 && 
+     getWallCount() == 3 &&
+     getGoalCount() == 1 &&
+     player) {
     
     codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.SUCCESS, 'Well done!');
   }

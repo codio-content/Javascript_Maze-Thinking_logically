@@ -8,5 +8,5 @@ Using Javascript again, we want you to create a game that meets the following cr
 
 When you have played and finished the games, press the button.
 
-{Check It!!|custom}(test-hiscore-js)
+{Check It!!|custom}(js-5)
 |||

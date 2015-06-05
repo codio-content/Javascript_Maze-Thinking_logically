@@ -6,7 +6,7 @@ Create an empty maze in Javascript and add three monsters into it using a **sing
 - createEmptyMaze()
 - addRandomMonsters()
 
-{Check it!! | custom}(test-3monsters-js)
+{Check it!! | custom}(js-2)
 
 |||
 

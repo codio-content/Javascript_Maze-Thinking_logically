@@ -1,7 +1,8 @@
 
 function indexOfCommand(val, j) {
   j = j || 0;
-  
+  j = j < 0 ? 0 : j;
+    
   for(var i = j; i < _commands.length; i++) {
     if(_commands[i][0] == val) return i; 
   }
@@ -20,6 +21,7 @@ function command(val, j) {
 }
 
 window.testMode = true;
+_commands = [];
 
 $(document).ready(function() {
   window.addEventListener('codio-button-custom', function (env) {

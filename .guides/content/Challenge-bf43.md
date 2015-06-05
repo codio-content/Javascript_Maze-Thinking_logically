@@ -9,6 +9,6 @@ Create a game with the following properties
 
 Press the button below once you think you've done it.
 
-{Check it!! | custom}(test-funcs-blockly)
+{Check it!! | custom}(commands-7-b)
 
 |||
