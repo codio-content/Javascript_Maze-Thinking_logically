@@ -1,4 +1,4 @@
 createEmptyMaze()
-addRandomMonsters(3)
+addRandomMonsters(4)
 addPlayer()
  

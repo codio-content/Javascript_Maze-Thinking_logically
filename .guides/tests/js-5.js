@@ -1,9 +1,8 @@
 
-$.getScript(window.location.origin + '/public/content/js/' + window.testEnv.cmd + '.js')
-.done(function (script, status) {
-  console.log(_commands);
+$.get(window.location.origin + '/stack.json')
+.done(function (data) {
   
-  if(true) {
+  if(data.wallCount == 4 && data.score > 10) {
     
     codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.SUCCESS, 'Well done!');
   }

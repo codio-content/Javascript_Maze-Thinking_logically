@@ -31,6 +31,11 @@ app.use(cookieParser());
 app.use(express["static"](path.join(__dirname, 'public')));
 
 
+app.post('/save-stack', function(req, res) {
+  fs.writeFileSync('./stack.json', req.body.data);
+  res.end();
+});
+
 app.use('/', contentRoutes);
 app.use('/tests/', testRoutes);
 
