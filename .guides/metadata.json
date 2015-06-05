@@ -135,6 +135,30 @@
    "content-file": ".guides/content/Javascript-Challenge-4715.md"
   },
   {
+   "id": "4fa717b6-a1e-936a-5654-38a6d3143a2d",
+   "title": "The Grid",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/content/blockly/commands-6-b/commands-6-b.blockly",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/commands-6",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-Grid-4fa7.md"
+  },
+  {
    "id": "98dd596c-1e76-734e-e7e5-621e9cb08e9e",
    "title": "More Instructions",
    "files": [
@@ -181,30 +205,6 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-18bb.md"
-  },
-  {
-   "id": "4fa717b6-a1e-936a-5654-38a6d3143a2d",
-   "title": "The Grid",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "public/content/blockly/commands-6-b/commands-6-b.blockly",
-     "panel": 0,
-     "action": "open"
-    },
-    {
-     "path": "#preview: https://{{domain9500}}/commands-6",
-     "panel": 1,
-     "action": "open"
-    }
-   ],
-   "layout": "",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/The-Grid-4fa7.md"
   },
   {
    "id": "b67b4f96-68a8-fe15-7d0-8147f8a8ebc0",

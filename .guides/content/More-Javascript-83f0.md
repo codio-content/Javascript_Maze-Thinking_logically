@@ -1,21 +1,19 @@
 Now we're going to see how to achieve exactly the same thing with Javascript.
 
-Take a look at the code on the left. Here, we've put in 3 lines to start you off.
-
-```javascript
-createEmptyMaze()
-addWall()
-addMonster(6,8)
-```
+Take a look at the code on the left. We've put in a few lines to start you off.
 
 ## Arguments
-We're not talking about having a verbal battle here. The 6 and the 8 in the brackets are called **arguments**.
+```javascript
+addMonster(4, 2)
+```
 
-If we specified `addMonster()` without any arguments (which we did before), then you can see that a monster gets added, but at a completely random location.
+We're not talking about having a verbal battle here. The 4 and the 2 in the brackets are called **arguments**.
+
+If we specified `addMonster()` without any arguments then you can see that a monster gets added, but at a completely random location.
 
 If we **do** specify arguments, then we get a monster at the position we specify.
 
-The first argument `6` is the X coordinate and the second argument `8` is the Y coordinate. 
+The first argument `4` is the X coordinate and the second argument `2` is the Y coordinate. 
 
 ## Change it
 Go ahead and change the following and see what happens.

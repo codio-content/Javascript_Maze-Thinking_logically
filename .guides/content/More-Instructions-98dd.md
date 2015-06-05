@@ -1,8 +1,10 @@
-Now let's add more commands so youhave more control over the game.
+Now let's add more commands so you have more control over the game.
 
 In the toolbox on the left, you can see we have a bigger set of commands.
 
-You can see that some of the commands a place where you can enter a value. Don't worry about these values but feel free to experiment (they are x, y coordinates, which we'll explain in a moment).
+You can see that some of the commands a place where you can enter a value for the X and Y coordinate. 
+
+**You don't have to fill in the X and Y values at this point, though you can if you want to.**
 
 - **Add Player** adds the player
 - **Add Goal** adds the goal the player shoud reach

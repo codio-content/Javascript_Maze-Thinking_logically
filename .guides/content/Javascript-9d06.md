@@ -2,7 +2,7 @@ We are now going to do the exact same things with a proper programming language 
 
 Over on the left hand side is the 3 monster challenge written using Javascript.
 
-[IMAGE OF BLOCKLY EQUIVALENT]
+![](.guides/img/blockly-js.png)
 
 ## Functions
 In Javscript, the 'Create Empty Maze' instruction is represented like this.

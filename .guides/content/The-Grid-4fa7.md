@@ -1,9 +1,9 @@
 Now, rather than randomly positioning things, we are going to give you the control and ability to decide what elements go where.
 
 ## Grid System
-The first thing we should explain is how the grid system of our game works. Look at the image below. You can see that the game is really made up of a grid or matrix of square tiles.
+The first thing we should explain is how the grid system of our game works. Look at the game on the left. Click on it so you can see it clearly.
 
-[IMAGE]
+You can see that the game is really made up of a grid or matrix of square tiles.
 
 Each of these tiles has an X and Y coordinate pair. The left most column is column 1, the next one column 2 etc. The column value is referred to by the X coordinate.
 
