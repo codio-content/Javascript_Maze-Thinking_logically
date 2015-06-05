@@ -3,10 +3,8 @@ $.getScript(window.location.origin + '/public/content/blockly/' + window.testEnv
 .done(function (script, status) {      
   console.log(_commands);
   
-  if(indexOfCommand('createEmptyMaze') > -1 &&
-     indexOfCommand('addRandomMonsters') > -1 &&
-     command('addRandomMonsters')[1] === 3 &&
-     indexOfCommand('addPlayer') > -1) {
+  if(getMonsterCount() == 3 && 
+     player) {
     
     codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.SUCCESS, 'Well done!');
   }
