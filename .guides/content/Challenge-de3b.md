@@ -2,6 +2,7 @@ Here are the Javascript function names available to you
 
 - `createEmptyMaze()`
 - `addPlayer()`
+- `addGoal()`
 - `addWall()`
 - `addEnergy()`
 - `addMonster()`
@@ -9,10 +10,12 @@ Here are the Javascript function names available to you
 |||challenge
 It's the same challenge as before, so
 
-- add 4 wall sections at random locations (don't supply coordinates)
-- add 3 monsters at (4,4), (6,8) and (9, 5)
+- create an empty maze
+- add 1 wall at (2,2) 
+- add 1 monsters at (6,5)
 - add 2 energy stores at (5,3) and (7, 4)
-- add the player, leaving the holes blank
+- add the player
+- add the goal
 
 Don't forget to add the 'Create Empty Maze' as the first instruction.
 
