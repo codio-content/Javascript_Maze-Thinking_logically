@@ -6,6 +6,7 @@
   <block type="add_energy_parms"></block>  
   <block type="add_monster_parms"></block>  
   <block type="create_player"></block>   
+  <block type="add_goal"></block>   
 </xml>
 
 
