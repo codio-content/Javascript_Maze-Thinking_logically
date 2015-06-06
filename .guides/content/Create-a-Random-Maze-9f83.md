@@ -14,7 +14,7 @@ It should look like this
 
 Once you have done this, you can run the game by pressing the Reload button in the game
 
-[IMAGE OF RELOAD BUTTON]
+![](.guides/img/reload.png)
 
 What you have done here is to execute a single instruction that creates a maze with a random number of walls, monsters and energy stores.
 

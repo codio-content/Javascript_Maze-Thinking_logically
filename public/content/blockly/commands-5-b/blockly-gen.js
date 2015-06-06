@@ -1,11 +1,1 @@
-createEmptyMaze()
-addPlayer()
-addGoal()
-addRandomMonsters(1)
-addRandomMonsters(1)
-addRandomEnergies(1)
-addRandomEnergies(1)
-addRandomWalls(1)
-addRandomWalls(1)
-addRandomWalls(1)
  

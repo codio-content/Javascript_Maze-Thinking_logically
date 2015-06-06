@@ -5,7 +5,7 @@ Next, we want you to create an empty maze, so you can start to add things to it 
 ## Monsters
 Next, we are going to add some monsters. 
 
-[IMAGE MONSTER]
+![](.guides/img/monster.png)
 
 - Drag in the 'Add Random Monster' command and connect it below the 'Create Empty Maze' command so it clicks into place.
 - Drag in the 'Add Player' command and connect it below the 'Empty Maze' command so it clicks into place.

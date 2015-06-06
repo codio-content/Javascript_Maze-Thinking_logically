@@ -2,17 +2,17 @@
  "sections": [
   {
    "id": "e8011f3c-139c-1da0-8025-360ca46969fc",
-   "title": "Commands & Variables",
+   "title": "Commands",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
     }
    ],
-   "layout": "",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Commands---Variables-e801.md"
+   "content-file": ".guides/content/Commands-e801.md"
   },
   {
    "id": "9f837972-86de-c8cd-7b30-45dedb48fc28",
@@ -33,7 +33,7 @@
      "action": "open"
     }
    ],
-   "layout": "3-cell-tree",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Create-a-Random-Maze-9f83.md"

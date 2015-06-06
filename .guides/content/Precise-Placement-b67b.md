@@ -5,11 +5,7 @@ Let's say we want to add a monster at the position (3,5), so 3 tiles from the le
 - Create an Empty Maze
 - Drag in the 'Add Monster' command.
 - Change the coordinates to X=3 and Y=5.
-- It should now look like this...
-
-[IMAGE]
-
 - Press the Reload button in the game to see what happens. You should see this
 
-[IMAGE]
+![](.guides/img/one-monster.png)
 
