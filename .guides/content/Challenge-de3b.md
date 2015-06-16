@@ -28,7 +28,7 @@ Press the button below once you think you've done it.
 |||guidance
 ## Solution
 
-The ordering of the various "Add" blocks is not essential, as long as they come after `Create Empty Maze`.
+The ordering of the various "Add" functions is not essential, as long as they come after `createEmptyMaze`.
 
 ```javascript
 createEmptyMaze()

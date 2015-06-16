@@ -12,4 +12,4 @@ Create an empty maze and add three monsters into it as well as a Player. When yo
 
 The ordering of `Add Player` and `Add Random Monsters` is not essential, as long as they come after `Create Empty Maze`.
 
-![](.guides/img/challenge-4.png)
+![](.guides/img/blockly-js.png)

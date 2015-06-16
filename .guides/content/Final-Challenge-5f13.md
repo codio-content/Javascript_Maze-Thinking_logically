@@ -15,7 +15,7 @@ When you have played and finished the games, press the button.
 |||guidance
 ## Solution
 
-The ordering of the various "Add" blocks is not essential, as long as they come after `Create Empty Maze`. The solution will need to include enough energy stores to increase the score to meet the requirement when the goal is reached.
+The ordering of the various "Add" functions is not essential, as long as they come after `createEmptyMaze`. The solution will need to include enough energy stores to increase the score to meet the requirement when the goal is reached.
 
 ```javascript
 createEmptyMaze()
