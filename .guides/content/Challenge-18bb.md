@@ -1,5 +1,5 @@
 |||challenge
-We want you to create ane empty maze with (and only with) the following game elements
+We want you to create an empty maze with (and only with) the following game elements
 
 - a player
 - a goal
@@ -14,3 +14,10 @@ When you're all done, press the button below.
 {Check it!! | custom}(commands-5-b)
 
 |||
+
+|||guidance
+## Solution
+
+The ordering of the various "Add" blocks is not essential, as long as they come after `Create Empty Maze`.
+
+![](.guides/img/challenge-9.png)

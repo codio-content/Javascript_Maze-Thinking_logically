@@ -10,3 +10,10 @@ Create an empty maze in Javascript and add three monsters into it using a **sing
 
 |||
 
+|||guidance
+## Solution
+
+```javascript
+createEmptyMaze()
+addRandomMonsters(3)
+```
