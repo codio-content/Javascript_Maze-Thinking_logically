@@ -24,3 +24,18 @@ Press the button below once you think you've done it.
 {Check it!! | custom}(js-4)
 
 |||
+
+|||guidance
+## Solution
+
+The ordering of the various "Add" blocks is not essential, as long as they come after `Create Empty Maze`.
+
+```javascript
+createEmptyMaze()
+addWall(2, 2)
+addMonster(6, 5)
+addEnergy(5, 3)
+addEnergy(7, 4)
+addPlayer()
+addGoal()
+```

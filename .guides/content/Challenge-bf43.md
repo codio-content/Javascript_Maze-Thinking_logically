@@ -13,3 +13,10 @@ Press the button below once you think you've done it.
 {Check it!! | custom}(commands-7-b)
 
 |||
+
+|||guidance
+## Solution
+
+The ordering of the various "Add" blocks is not essential, as long as they come after `Create Empty Maze`.
+
+![](.guides/img/challenge-11.png)
