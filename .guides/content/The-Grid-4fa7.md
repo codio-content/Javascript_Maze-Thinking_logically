@@ -12,6 +12,6 @@ The top row of the grid is row 1, the next row is row 2 etc. The row value is re
 In the image you can see 2 tiles which have the coordinates
 
 - X=3 and Y=4 which we can shorten to (3,4)
-- X=7 and Y=4, which we can shorter to (7,4)
+- X=7 and Y=4, which we can shorten to (7,4)
 
 We'll now use this system to place our elements exactly where we want them to be.
