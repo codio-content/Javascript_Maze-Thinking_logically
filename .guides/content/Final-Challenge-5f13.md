@@ -1,3 +1,13 @@
+
+Here are the JavaScript function names available to you
+
+- `createEmptyMaze()`
+- `addPlayer()`
+- `addGoal()`
+- `addWall()`
+- `addEnergy()`
+- `addMonster()`
+
 |||challenge
 Using Javascript again, we want you to create a game that meets the following criteria.
 
@@ -19,8 +29,20 @@ The ordering of the various "Add" functions is not essential, as long as they co
 
 ```javascript
 createEmptyMaze()
-addRandomWalls(4)
-addRandomEnergies(10)
+addWall()
+addWall()
+addWall()
+addWall()
+addEnergy()
+addEnergy()
+addEnergy()
+addEnergy()
+addEnergy()
+addEnergy()
+addEnergy()
+addEnergy()
+addEnergy()
+addEnergy()
 addPlayer()
 addGoal()
 ```

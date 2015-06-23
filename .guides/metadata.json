@@ -209,7 +209,19 @@
   {
    "id": "b67b4f96-68a8-fe15-7d0-8147f8a8ebc0",
    "title": "Precise Placement",
-   "files": [],
+   "files": [
+    {
+     "path": "public/content/blockly/commands-6-b/commands-6-b.blockly",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/commands-6",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Precise-Placement-b67b.md"
