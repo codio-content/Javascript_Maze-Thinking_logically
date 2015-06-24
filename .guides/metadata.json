@@ -206,6 +206,10 @@
    "title": "Precise Placement",
    "files": [
     {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
      "path": "public/content/blockly/commands-6-b/commands-6-b.blockly",
      "panel": 0,
      "action": "open"
