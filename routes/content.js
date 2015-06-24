@@ -55,6 +55,10 @@ router.get('/commands-7', function(req, res) {
   res.render('commands-7');
 });
 
+router.get('/grid', function(req, res) {
+  res.render('grid');
+});
+
 // Javascript adding objects
 router.get('/js-3', function(req, res) {
   res.render('js-3');
