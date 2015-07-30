@@ -1,4 +1,5 @@
 [editor]
+tab_size = 2
 ; enter your editor preferences here...
 
 [view-javascript-code]
@@ -26,7 +27,6 @@
 ; enter your code-beautifier preferences here...
 
 [guides]
-theme = paper
 ; enter your guides preferences here...
 
 [settings]
@@ -38,11 +38,11 @@ theme = paper
 [sync-structure]
 ; enter your sync-structure preferences here...
 
+[Codio Lexikon]
+; enter your Codio Lexikon preferences here...
+
 [project]
 ; enter your project preferences here...
-
-[education]
-; enter your education preferences here...
 
 [codio-bower]
 ; enter your codio-bower preferences here...
@@ -55,10 +55,4 @@ theme = paper
 
 [container]
 ; enter your container preferences here...
-
-[account-settings]
-; enter your account-settings preferences here...
-
-[dashboard]
-; enter your dashboard preferences here...
 
