@@ -1,18 +1,41 @@
 
-$.getScript(window.location.origin + '/public/content/blockly/' + window.testEnv.cmd + '/blockly-gen.js')
-.done(function (script, status) {      
-  console.log(_commands);
+var fs = require('fs');
+
+var maze = false;
+var player = false;
+var monsterCount = false;
+
+function createRandomMaze() {
+  maze = true;  
+}
+
+function createEmptyMaze() {
+  maze = true;  
+}
+
+function addRandomMonsters(count) {
+  monsterCount = count;
+}
+
+function addPlayer() {
+  player = true;
+}
+
+// todo export blockly-gen as a node module
+
+try {
+  var data = fs.readFileSync('/home/codio/workspace/public/content/blockly/commands-3-b/blockly-gen.js', 'utf8');
+  eval(data);
+
+  if(maze && monsterCount == 3 && player) {
+    process.stdout.write('Well done!');  
+    process.exit(0);
+  }
+
+}
+catch(e) {
   
-  if(getMonsterCount() == 3 && 
-     player) {
-    
-    codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.SUCCESS, 'Well done!');
-  }
-  else {
-    codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.FAILURE, 'Not quite right, try again!');
-  }
-})
-.fail(function (jqxhr, settings, exception) {
-  console.log(exception);
-  codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.INVALID, exception.message); 
-});
+}
+
+process.stdout.write('Not quite right, try again!');  
+process.exit(1);

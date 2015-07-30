@@ -12,7 +12,9 @@
    "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Commands-e801.md"
+   "content-file": ".guides/content/Commands-e801.md",
+   "chapter": true,
+   "reset": []
   },
   {
    "id": "9f837972-86de-c8cd-7b30-45dedb48fc28",
@@ -36,7 +38,9 @@
    "layout": "3-cell",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Create-a-Random-Maze-9f83.md"
+   "content-file": ".guides/content/Create-a-Random-Maze-9f83.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "d59df680-25c4-1609-f842-be6b58464677",
@@ -60,7 +64,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/An-Empty-Maze-d59d.md"
+   "content-file": ".guides/content/An-Empty-Maze-d59d.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "c89cdc56-6824-d416-421a-bd85df5568a9",
@@ -84,7 +90,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge-c89c.md"
+   "content-file": ".guides/content/Challenge-c89c.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "9d064457-5295-4cd3-cb62-453eec984c5c",
@@ -108,7 +116,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Javascript-9d06.md"
+   "content-file": ".guides/content/Javascript-9d06.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "47154c9e-3372-5c10-fd07-bc557022ae6c",
@@ -132,7 +142,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Javascript-Challenge-4715.md"
+   "content-file": ".guides/content/Javascript-Challenge-4715.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "4fa717b6-a1e-936a-5654-38a6d3143a2d",
@@ -151,7 +163,9 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/The-Grid-4fa7.md"
+   "content-file": ".guides/content/The-Grid-4fa7.md",
+   "chapter": true,
+   "reset": []
   },
   {
    "id": "98dd596c-1e76-734e-e7e5-621e9cb08e9e",
@@ -175,7 +189,9 @@
    "layout": "3-cell",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/More-Instructions-98dd.md"
+   "content-file": ".guides/content/More-Instructions-98dd.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "18bbcb21-54fb-5dbc-c629-7567d2c6d560",
@@ -199,7 +215,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge-18bb.md"
+   "content-file": ".guides/content/Challenge-18bb.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "b67b4f96-68a8-fe15-7d0-8147f8a8ebc0",
@@ -223,7 +241,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Precise-Placement-b67b.md"
+   "content-file": ".guides/content/Precise-Placement-b67b.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "bf43bf22-a13a-5781-bc9-1e71fdccde07",
@@ -247,7 +267,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge-bf43.md"
+   "content-file": ".guides/content/Challenge-bf43.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "83f05174-dc24-85e0-2d0-3a35818c22b",
@@ -271,7 +293,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/More-Javascript-83f0.md"
+   "content-file": ".guides/content/More-Javascript-83f0.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "de3bbb68-33d3-2a39-c8c0-ce1db5b06a54",
@@ -295,7 +319,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge-de3b.md"
+   "content-file": ".guides/content/Challenge-de3b.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "5f131f9f-2a7a-a51f-7901-71dbef64544a",
@@ -319,7 +345,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Final-Challenge-5f13.md"
+   "content-file": ".guides/content/Final-Challenge-5f13.md",
+   "chapter": false,
+   "reset": []
   }
  ],
  "theme": "charcoal",

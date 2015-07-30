@@ -8,19 +8,7 @@ Here are the JavaScript function names available to you
 - `addEnergy()`
 - `addMonster()`
 
-|||challenge
-Using Javascript again, we want you to create a game that meets the following criteria.
-
-1. At least 4 walls.
-1. You must play the game and achieved a score of at least **10** when you reach the goal.
-
-**Hint:** you will need some extra energy stores in the game to get the score.
-
-When you have played the game and reached the goal press the 'Check It' button. Checking your solution without playing the game and reaching the goal will fail the challenge.
-
-{Check It!!|custom}(js-5)
-|||
-
+{Check It!|assessment}(test-1528181720)
 
 |||guidance
 ## Solution

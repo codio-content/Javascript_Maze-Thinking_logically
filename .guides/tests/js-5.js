@@ -1,16 +1,16 @@
 
-$.get(window.location.origin + '/stack.json')
-.done(function (data) {
+
+try {
+  var data = require('/home/codio/workspace/stack.json');
   
   if(data.wallCount == 4 && data.score > 10) {
-    
-    codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.SUCCESS, 'Well done!');
+    process.stdout.write('Well done!');  
+    process.exit(0);
   }
-  else {
-    codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.FAILURE, 'Not quite right, try again!');
-  }
-})
-.fail(function (jqxhr, settings, exception) {
-  console.log(exception);
-  codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.INVALID, exception.message); 
-});
+}
+catch(e) {
+//   console.log(e);
+}
+
+process.stdout.write('Not quite right, try again!');  
+process.exit(1);
