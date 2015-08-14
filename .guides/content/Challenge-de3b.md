@@ -23,3 +23,5 @@ addEnergy(7, 4)
 addPlayer()
 addGoal()
 ```
+
+|||

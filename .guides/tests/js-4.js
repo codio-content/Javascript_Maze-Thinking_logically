@@ -1,6 +1,4 @@
 
-
-
 var fs = require('fs');
 
 var maze = false;
