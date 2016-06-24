@@ -27,6 +27,7 @@ tab_size = 2
 ; enter your code-beautifier preferences here...
 
 [guides]
+theme = 
 ; enter your guides preferences here...
 
 [settings]
