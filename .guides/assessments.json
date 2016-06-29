@@ -1,0 +1,98 @@
+[
+ {
+  "type": "test",
+  "taskId": "test-1000133858",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "More Blockly commands",
+   "instructions": "We want you to create an empty maze with (and only with) the following game elements\n\n- a player\n- a goal\n- 2 monsters\n- 2 energy stores\n- 3 wall sections\n\nCheck the game first. If you create 2 things at the same coordinate only 1 will count.\n\nWhen you're all done, press the button below.",
+   "command": "node .guides/tests/commands-5-b.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1528181720",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Play the game",
+   "instructions": "Using Javascript again, we want you to create a game that meets the following criteria.\n\n1. At least 4 walls.\n1. You must play the game and achieved a score of at least **10** when you reach the goal.\n\n**Hint:** you will need some extra energy stores in the game to get the score.\n\nWhen you have played the game and reached the goal press the 'Check It' button. Checking your solution without playing the game and reaching the goal will fail the challenge.",
+   "command": "node .guides/tests/js-5.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1543799766",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Javascript commands",
+   "instructions": "Create an empty maze in Javascript and add three monsters into it using a **single command** for the monsters . When you are ready, click the button below. Here's a reminder of the instructions.\n\n- createEmptyMaze()\n- addRandomMonsters()",
+   "command": "node .guides/tests/js-2.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-191410478",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Blockly commands",
+   "instructions": "Create an empty maze and add three monsters into it as well as a Player. When you are ready, click the button below.",
+   "command": "node .guides/tests/commands-3-b.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-209245699",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Precise placement with Javascript",
+   "instructions": "It's the same challenge as before, so\n\n- create an empty maze\n- add 1 wall at (2,2) \n- add 1 monsters at (6,5)\n- add 2 energy stores at (5,3) and (7, 4)\n- add the player\n- add the goal\n\nDon't forget to add the 'Create Empty Maze' as the first instruction.\n\nPress the button below once you think you've done it.",
+   "command": "node .guides/tests/js-4.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-48580279",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Precise placement with Blockly",
+   "instructions": "Create a game with the following properties\n\n- create an empty maze\n- add 1 wall at (2,2) \n- add 1 monster at (6,5)\n- add 2 energy stores at (5,3) and (7, 4)\n- add the player\n- add the goal\n\nPress the button below once you think you've done it.\n",
+   "command": "node .guides/tests/commands-7-b.js",
+   "points": 1
+  }
+ }
+]
