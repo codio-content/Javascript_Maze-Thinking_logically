@@ -1,0 +1,93 @@
+{
+ "name": "Javascript_Maze-Thinking_logically",
+ "children": [
+  {
+   "title": "Commands",
+   "id": "e8011f3c-139c-1da0-8025-360ca46969fc",
+   "pageId": "e8011f3c-139c-1da0-8025-360ca46969fc",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Create a Random Maze",
+     "id": "9f837972-86de-c8cd-7b30-45dedb48fc28",
+     "pageId": "9f837972-86de-c8cd-7b30-45dedb48fc28",
+     "type": "page"
+    },
+    {
+     "title": "An Empty Maze",
+     "id": "d59df680-25c4-1609-f842-be6b58464677",
+     "pageId": "d59df680-25c4-1609-f842-be6b58464677",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "c89cdc56-6824-d416-421a-bd85df5568a9",
+     "pageId": "c89cdc56-6824-d416-421a-bd85df5568a9",
+     "type": "page"
+    },
+    {
+     "title": "Javascript",
+     "id": "9d064457-5295-4cd3-cb62-453eec984c5c",
+     "pageId": "9d064457-5295-4cd3-cb62-453eec984c5c",
+     "type": "page"
+    },
+    {
+     "title": "Javascript Challenge",
+     "id": "47154c9e-3372-5c10-fd07-bc557022ae6c",
+     "pageId": "47154c9e-3372-5c10-fd07-bc557022ae6c",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "The Grid",
+   "id": "4fa717b6-a1e-936a-5654-38a6d3143a2d",
+   "pageId": "4fa717b6-a1e-936a-5654-38a6d3143a2d",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "More Instructions",
+     "id": "98dd596c-1e76-734e-e7e5-621e9cb08e9e",
+     "pageId": "98dd596c-1e76-734e-e7e5-621e9cb08e9e",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "18bbcb21-54fb-5dbc-c629-7567d2c6d560",
+     "pageId": "18bbcb21-54fb-5dbc-c629-7567d2c6d560",
+     "type": "page"
+    },
+    {
+     "title": "Precise Placement",
+     "id": "b67b4f96-68a8-fe15-7d0-8147f8a8ebc0",
+     "pageId": "b67b4f96-68a8-fe15-7d0-8147f8a8ebc0",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "bf43bf22-a13a-5781-bc9-1e71fdccde07",
+     "pageId": "bf43bf22-a13a-5781-bc9-1e71fdccde07",
+     "type": "page"
+    },
+    {
+     "title": "More Javascript",
+     "id": "83f05174-dc24-85e0-2d0-3a35818c22b",
+     "pageId": "83f05174-dc24-85e0-2d0-3a35818c22b",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "de3bbb68-33d3-2a39-c8c0-ce1db5b06a54",
+     "pageId": "de3bbb68-33d3-2a39-c8c0-ce1db5b06a54",
+     "type": "page"
+    },
+    {
+     "title": "Final Challenge",
+     "id": "5f131f9f-2a7a-a51f-7901-71dbef64544a",
+     "pageId": "5f131f9f-2a7a-a51f-7901-71dbef64544a",
+     "type": "page"
+    }
+   ]
+  }
+ ]
+}
